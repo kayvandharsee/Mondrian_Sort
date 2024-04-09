@@ -6,9 +6,9 @@
 This game is a visual interactive assignment designed for the COMP 250 Winter 2024 class, focusing on modeling hierarchical data using trees and implementing recursive methods. The game board is a Mondrian-esque grid of colored squares, with each player striving to achieve their unique goals by manipulating blocks through rotations, reflections, and smashing.
 
 ### Instructions to Play
-- Clone the repository to your local machine.
+- Download the assignment3 package.
 - Ensure Java is installed on your machine.
-- Navigate to the src directory containing BlockGame.java.
+- Open the assignment3 package and open the file titled BlockGame.java.
 - Run BlockGame.java to start the game.
 
 ### Game Rules
