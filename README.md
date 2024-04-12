@@ -16,3 +16,20 @@ This game is a visual interactive assignment designed for the COMP 250 course at
 - Players can rotate, reflect, or smash blocks on the board to score points towards their goal.
 - The game continues for a fixed number of turns.
 - The highest score at the end wins.
+
+### Project Structure
+The core of the project lies within three main classes:
+
+- **Block.java**: Represents the game board. A block can either be a solid color square or subdivided into four smaller blocks, forming a recursive structure.
+- **PerimeterGoal.java and BlobGoal.java**: Define two types of game goals. One aims to maximize the perimeter covered by a specific color, and the other seeks to form the largest connected area ("blob") of a color.
+
+### Implementation Highlights
+- **Quad-Tree Data Structure**: Used to represent the game board in a hierarchical manner, enabling efficient operations such as rotations, reflections, and smash (subdividing a block into four new random blocks).
+- **Recursive Methods**: To navigate and manipulate the quad-tree structure, illustrating the power of recursion in handling complex data structures.
+- **Dynamic Gameplay**: Players can interact with the board through a GUI, selecting blocks to rotate, reflect, or smash, with the goal of maximizing their score according to their assigned objective.
+- **Scoring System**: Implements algorithms to calculate scores based on the game's objectives, taking into account the board's recursive structure.
+
+### Challenges and Learnings
+- The primary challenge was managing the recursive nature of the quad-tree structure, especially when implementing the game's rules and ensuring that all manipulations maintain the integrity of the board.
+- Learned the importance of designing flexible data structures and the practical application of recursive algorithms in creating interactive applications.
+- Gained a deeper understanding of Java's inheritance and how it can be used to streamline code through shared functionality and polymorphism.
