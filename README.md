@@ -1,6 +1,6 @@
 # Mondrian Sort
 
-<img width="1470" alt="250 A3 Game" src="https://github.com/kayvandharsee/Mini-Mips_CPU_Project/assets/135669229/e452d561-6f65-49fd-aa60-6eba2ef782e6">
+<img width="1470" alt="250 A3 Game" src="https://github.com/kayvandharsee/mondrian_sort/assets/135669229/1d06aab8-2a36-4f8f-a643-e6bf5f301a0d">
 
 ### Overview
 This game is a visual interactive assignment designed for the COMP 250 course at McGill University, focusing on modeling hierarchical data using trees and implementing recursive methods. The game board is a Mondrian-esque grid of colored squares, with each player striving to achieve their unique goals by manipulating blocks through rotations, reflections, and smashing. Out of respect for the course, I will not be sharing my code publicly. Please message me to request to see the source code
